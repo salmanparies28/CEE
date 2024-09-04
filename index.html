@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centre for Energy and Environment</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="../static/image/CEE.png" type="image/png">
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="../static/image/CEE.png" alt="CEE Logo" class="h-16">
+                <span class="self-center text-2xl font-semibold dark:text-white">CEE × PMIST</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li><a href="#objectives" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent hover:text-green-500">Objectives</a></li>
+                    <li><a href="#green-practices" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent hover:text-green-500">Green Practices</a></li>
+                    <li><a href="#facilities" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent hover:text-green-500">Facilities</a></li>
+                    <li><a href="/login" class="block py-2 px-3 text-gray-900 rounded md:hover:bg-transparent hover:text-green-500">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+        <!-- Title Section -->
+        <div class="text-center mb-10">
+            <h2 class="text-4xl font-bold text-green-700 mb-4">Centre for Energy and Environment (CEE)</h2>
+            <p class="text-lg">Innovative research in Energy and Environment, and recognized for contributions in sustainability.</p>
+        </div>
+
+        <!-- Login Button -->
+        <div class="flex justify-center mb-12">
+            <a href="/login" class="bg-green-500 hover:bg-green-600 text-white text-xl font-bold py-3 px-8 rounded-full">
+                <i class="fas fa-sign-in-alt mr-2"></i> Login
+            </a>
+        </div>
+
+        <!-- Objectives Section (Cards) -->
+        <section id="objectives">
+            <h3 class="text-3xl font-bold text-center text-green-700 mb-8">Objectives</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-xl font-semibold mb-4">Consultancy Services</h4>
+                    <p>Offer consultancy services to industries and organizations, promoting sustainability.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-xl font-semibold mb-4">Training Programmes</h4>
+                    <p>Develop coordination among various agencies for conducting training programs.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-xl font-semibold mb-4">Cost-effective Energy Gadgets</h4>
+                    <p>Develop and promote cost-effective energy gadgets for public and private sectors.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Green Practices Section -->
+        <section id="green-practices" class="mt-16">
+            <h3 class="text-3xl font-bold text-center mb-8 text-green-700">Green Practices</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-xl font-semibold mb-4">Waste Management</h4>
+                    <p>Implement the 5R’s (Refuse, Reduce, Reuse, Recycle and Recover) concept in solid waste management.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-xl font-semibold mb-4">Biomethanisation Plant</h4>
+                    <p>Installed India’s first 500 m<sup>3</sup> capacity multi-feed biomethanisation plant producing 60KWe from waste.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facilities Section -->
+        <section id="facilities" class="mt-16">
+            <h3 class="text-3xl font-bold text-center mb-8 text-green-700">Facilities Available</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-xl font-semibold mb-4">Biomass Gasification Plants</h4>
+                    <p>Designed, fabricated, and operating 1 kW, 2 kW, and 20 kW biomass gasification plants.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-xl font-semibold mb-4">Solar Power Systems</h4>
+                    <p>Solar power plants installed for hostel lighting and research purposes.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <h4 class="text-xl font-semibold mb-4">Bioenergy Research</h4>
+                    <p>State-of-the-art equipment available for bioenergy research such as Thermo Gravimetric Analyzer.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-green-100 text-center py-6">
+        <p class="text-gray-700">&copy; 2024 Centre for Energy and Environment - PMIST. All rights reserved.</p>
+    </footer>
+
+    <!-- Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const btn = document.querySelector('[data-collapse-toggle]');
+            const menu = document.querySelector('#navbar-default');
+
+            btn.addEventListener('click', function() {
+                menu.classList.toggle('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
